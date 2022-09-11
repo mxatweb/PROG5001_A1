@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StudentMark
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ getMenuOption()
+comment3.params=
+comment3.target=void\ getUnitName()
+comment3.text=\r\n\ F1\:\ Allow\ users\ to\ input\ the\ unit\ name\r\n
+comment4.params=
+comment4.target=void\ getStudentMarks()
+comment4.text=\r\n\ F2\:\ Allow\ users\ to\ input\ the\ students\u2019\ name\ and\ mark.\r\n
+comment5.params=m
+comment5.target=boolean\ validateStudentMarks(java.lang.String)
+comment5.text=\r\n\ F3\:\ Validate\ user\ input.\r\n
+comment6.params=
+comment6.target=void\ printSummaryOfStudentMarks()
+comment6.text=\r\n\ F4\:\ Print\ the\ unit\ name\ followed\ by\ the\ students\u2019\ marks\ after\ users\ have\ finished\ entering\ the\ marks.\r\n
+comment7.params=
+comment7.target=void\ displayHighestLowestMarks()
+comment7.text=\r\n\ F5\:\ Find\ the\ highest\ mark\ and\ the\ lowest\ mark\ and\ print\ the\ result\ on\ the\ screen\ (Algorithm\ 1)\r\n
+comment8.params=
+comment8.target=void\ displayMeanStD()
+comment8.text=\r\n\ F6\:\ Calculate\ the\ mean\ and\ standard\ deviation\ of\ the\ marks\ and\ print\ the\ result\ on\ the\ screen\ (Algorithm\ 2)\r\n
+numComments=9

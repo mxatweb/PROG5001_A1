@@ -1,0 +1,45 @@
+
+/*
+ * Algorithm 1 (F5). Find the highest and lowest mark
+ *
+ */
+1. Using the populated student marks array
+2. Find the highest mark by looping through the student marks array
+	2.1 Assign the first element (array_index = 0) in the marks array to the variable "highest" which will store the highest mark
+	2.2 Compare the value in variable "highest" with all the elements in the array.
+		2.2.1 FOR each element in the array (starting at "array_index" = 1 ) check to see if (marks[array_index] > highest). 
+		2.2.2 IF (marks[array_index] > highest), we found a larger value therefore set (highest = marks[array_index]) 
+		2.2.3 Increment array_index by 1
+		2.2.4 REPEAT 2.2.2, 2.2.3 until you reach the end of the marks array.
+		2.2.5 The current value stored in the variable "highest" is the highest mark.
+	2.3 Display the highest mark
+3. Find the lowest mark by looping through the student marks array
+	3.1 Assign the first element (array_index = 0) in the marks array to the variable "lowest" which will store the lowest mark
+	3.2 Compare the value in variable "lowest" with all the elements in the array.
+		3.2.1 FOR each element in the array (starting at "array_index" = 1 ) check to see if (marks[array_index] < lowest). 
+		3.2.2 IF (marks[array_index] < lowest), we found a smaller value therefore set (lowest = marks[array_index]) 
+		3.2.3 Increment array_index by 1
+		3.2.4 REPEAT 2.2.2, 2.2.3 until you reach the end of the marks array.
+		3.2.5 The current value stored in the variable "lowest" is the lowest mark.
+	3.3 Display the lowest mark
+
+/*
+ * Algorithm 2 (F6). Find the mean and standard deviation
+ *
+ */
+1. Using the populated student marks array
+2. Sum up all the student's marks
+	2.1. Let sum = 0
+	2.2. Loop through the marks array and add each element in the array to the sum
+	2.3. End loop
+3. Determine the total number of array elements and use it to calculate the mean
+	3.1. Let the total number of elements = the array size i.e marks.length
+	3.2. Let the mean = (sum from step 2) / (total number of elements)
+	3.3. Display the mean
+4. Find the standard deviation
+	4.1 Using the value of the mean from step 3
+	4.2 Let standard_deviation = 0.0
+	4.3 FOR each mark in the array 
+		4.3.1 Let standard_deviation += Math.pow(mark - mean, 2);
+	4.4 End the loop
+	4.5 Display standard deviation
